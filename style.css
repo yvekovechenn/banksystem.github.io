@@ -1,0 +1,78 @@
+body {
+  background-color: antiquewhite;
+  color: rgb(34, 28, 28);
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  background-color: rgb(70, 34, 28);
+  padding: 25px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+section {
+  color: dimgrey;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    text-align: center;
+}
+p {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 20px;
+}
+.inputclass {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.inputclass input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 150px;
+  text-align: center;
+}
+
+button{
+    color: rgb(51, 16, 16);
+    padding: 8px 16px;
+    margin: 0 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+}
+p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.buttonclass{
+    text-align: center;
+    margin-top: 20px;
+}
+#deposit{
+    background-color: chartreuse;
+    color: rgb(255, 255, 255);
+}
+
+#deposit:hover{
+    background-color: rgb(188, 255, 120);
+}
+
+#withdraw{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#withdraw:hover{
+    background-color: rgb(255, 110, 110);
+}
